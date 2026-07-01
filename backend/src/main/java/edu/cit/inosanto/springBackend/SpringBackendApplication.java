@@ -1,13 +1,13 @@
-package edu.cit.inosanto.demo;
+package edu.cit.inosanto.springBackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SpringBackendApplication.class, args);
 	}
 
 }
